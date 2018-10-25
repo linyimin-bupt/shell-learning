@@ -109,3 +109,60 @@ turncates a file to zero length, without changing its permissions.If the file di
 
 # Same effect as cat /dev/null > data.xxx
 ```
+
+- ！
+  - reverse the sense of s test or exits status
+  - In a different context, the ! also apear in `indirect variable references`
+  - In yet another,from the command line,the ! invokes the Bash history mechanism
+
+- *
+wild card
+  - Matches every filename in a given directory.
+  ```shell
+    echo *
+    # print all file or directory names
+  ```
+  - Represents any number(or zero) characters in a regular expression.
+  - Arithmetic operator(** double * can represent the exponentiation operator)
+  ```shell
+    let x=5**3      # Same as 5*5*5
+    echo "x = $x"   # 125
+  ```
+- ?
+  - test operator
+  ```shell
+  var1=12
+  ((var0 = var1<98?9:21))
+  echo "var0 = $var0"     # var0 = 9
+  ```
+  - wild card, serves as a single-character in a regular expression
+
+- $
+  - variable substitution (contents of a variable)
+    A $ prefixing a variable name indicates the value the variable holds
+  ```shell
+  var1=5
+  echo $var1    # 5
+  ```
+  - end-of-line.
+    In a regular expression, a "$" addresses the `end of line` of text.
+
+- ${}
+Variable substitution. Same as $parameter, value of the variable parameter. In certain contexts, only the less ambiguous `${parameter}form work
+
+- $*
+Positional parameters: All of the positional parameters, seen as a single word
+
+- $@ 
+Positional parameters: Each parameter is a quoted string,that is, the parameters are pass on intact,without interpretion or expansion.This means, among other things,the each parameter in the argument list is seen as a seperate word.
+
+- $#
+
+Number of command-line arguments or positional parameters.
+
+- $?
+
+Exit status variable.
+
+- $$
+process ID variable.
