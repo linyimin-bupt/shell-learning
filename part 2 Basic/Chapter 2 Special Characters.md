@@ -5,7 +5,7 @@
 
 ### Special Characters Found In Scripts and ElseWhere
 
-- #
+- \#
 
 Comments. Lines beginning with a # (with the exception of #!) are comments and will not be executed.
 
