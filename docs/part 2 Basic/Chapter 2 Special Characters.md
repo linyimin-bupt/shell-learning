@@ -115,7 +115,7 @@ turncates a file to zero length, without changing its permissions.If the file di
   - In a different context, the ! also apear in `indirect variable references`
   - In yet another,from the command line,the ! invokes the Bash history mechanism
 
-- *
+- \*
 wild card
   - Matches every filename in a given directory.
   ```shell
@@ -148,12 +148,15 @@ wild card
     In a regular expression, a "$" addresses the `end of line` of text.
 
 - ${}
+
 Variable substitution. Same as $parameter, value of the variable parameter. In certain contexts, only the less ambiguous `${parameter}form work
 
 - $*
+
 Positional parameters: All of the positional parameters, seen as a single word
 
 - $@ 
+
 Positional parameters: Each parameter is a quoted string,that is, the parameters are pass on intact,without interpretion or expansion.This means, among other things,the each parameter in the argument list is seen as a seperate word.
 
 - $#
@@ -165,4 +168,5 @@ Number of command-line arguments or positional parameters.
 Exit status variable.
 
 - $$
+
 process ID variable.
