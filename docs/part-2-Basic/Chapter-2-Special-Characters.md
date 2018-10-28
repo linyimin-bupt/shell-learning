@@ -214,3 +214,13 @@ echo {1..5}       ## 1 2 3 4 5
 
 #+ Echos characters between 1 and 5
 ```
+
+- {}
+
+Block of code.**Note: The variable inside a code block remain visible to the remainder of the script**
+```shell
+a=123
+{ a=321; }
+echo "a = $a"   # a = 321
+```
+
