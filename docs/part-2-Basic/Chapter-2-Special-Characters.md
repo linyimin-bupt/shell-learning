@@ -223,4 +223,30 @@ a=123
 { a=321; }
 echo "a = $a"   # a = 321
 ```
+The code block enclosed in braces may have I/O redirected to and from it.
+
+[Example 3-1](../../scripts/Chapter-2-Special-Character/code-blocks-Input-redirection.sh) Code blocks and I/O redirection
+
+```shell
+#! /bin/bash
+# Reading lines in /etc/fstab
+
+
+File=/etc/fstab
+
+{
+  read line1;
+  read line2;
+} < $File
+
+echo "First line in $File is:"
+echo "$line1"
+echo
+echo "Second line in $File is:"
+echo "$line2"
+
+exit 0
+```
+
+Used after `xarg -i`: Placeholder for text 
 
