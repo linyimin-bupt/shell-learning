@@ -170,3 +170,47 @@ Exit status variable.
 - $$
 
 process ID variable.
+
+- ()
+
+command group
+```shell
+(a=hello; echo $a)
+```
+
+array initialization
+
+```shell
+Array=(element1 element2 element3)
+```
+
+- {xxx,yyy,zzz,...}
+
+brace expansion
+
+```shell
+echo \"{These,words,are,quoted}\"
+
+## "These" "words" "are" "quoted"
+
+cat {file1,file2,file3} > combined-file
+## Concatenates the files file1,file2 and file3 into combined-file 
+
+cp file1.{txt, backup}
+
+## Copies "file1.txt" to "file1.backup"
+```
+
+- {a..z}
+
+Extended Brace expansion.
+
+```shell
+echo {a..d}       ## a b c d
+
+#+ Echos characters between a and d
+
+echo {1..5}       ## 1 2 3 4 5
+
+#+ Echos characters between 1 and 5
+```
