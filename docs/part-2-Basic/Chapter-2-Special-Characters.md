@@ -250,3 +250,85 @@ exit 0
 
 Used after `xarg -i`: Placeholder for text 
 
+```shell
+# Copy all files in current directory.
+ls . | xargs -i -t cp ./{} 'directory-to-copy-to'
+```
+
+- []
+
+  - test.
+
+    test expression between [].
+
+  - array element
+
+
+- [[]]
+
+test.
+
+Test expression between [[ ]]. More flexible than the single-bracket [] test.
+
+- $[ ... ] (Deprecated: Use ((...)) instead)
+
+integer expansion
+
+Evaluate integer expression between $[].
+
+```shell
+a=3
+b=7
+
+echo $[$a+$b]     # 10
+echo $[$a*$b]     # 21
+```
+
+
+- (())
+
+integer expansion.
+
+Expand and evaluate integer expression between (())
+
+- \>
+
+redirection.
+
+`scriptname > filename` redirects the output of `scriptname` to file `filename`. Overwrite filename if it already exists.
+
+- &>
+
+redirection.
+
+`comamnd &> filename` redirects both the stdout and stderr of `command` to `filename`.
+
+This is useful for suppressing output when testing for a condition.For example, test whether a certain command exists.
+
+```shell
+type bogus_command &> /dev/null
+if [ $? ]
+then
+  echo "The command exists."
+else
+  echo "The command does not exist."
+
+fi
+```
+
+- \>\>
+
+`scriptname` >> `filename`  appends the output of `scriptname` to file `filename`. If filename does not already exist, it is created.
+
+- &
+
+Run job in background.
+
+- &&
+
+AND logical operator.
+
+- \-
+
+Option, prefix
+
