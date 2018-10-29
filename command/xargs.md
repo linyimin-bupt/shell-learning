@@ -16,4 +16,25 @@ From Wikipedia
 
 `xargs`的默认命令是echo,默认定界符是空格 --- 通过管道传递给xargs的输入中的换行和空白会被空格取代。
 
+### Practices
+
+1. Find out all the `.png` images and archive them using the `tar` command
+
+```shell
+find ./ -name "*.png" -type f -print0 | xargs -0 tar -zcvf images.tar.gz 
+```
+
+**Note**: `-print0` enables printing of the full file path on the standard output, followed by a null character. `-0` means `xargs` use a null character as delimiter.  
+
+2. Convert multi-line output from `ls` into single
+
+```shell
+ls ./ | xargs
+```
+
+3. Calculate the number of lines/words/characters in each file in a directory
+
+```shell
+ls ./ | xargs wc 
+```
 ### [常用的12个实践](https://www.tecmint.com/xargs-command-examples/)
