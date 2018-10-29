@@ -255,6 +255,14 @@ Used after `xarg -i`: Placeholder for text
 ls . | xargs -i -t cp ./{} 'directory-to-copy-to'
 ```
 
+- {} \;
+
+pathname. Mostly used in `find` constructs.
+
+```shell
+find ./ -name 'core*' -exec rm {} \;
+```
+
 - []
 
   - test.
