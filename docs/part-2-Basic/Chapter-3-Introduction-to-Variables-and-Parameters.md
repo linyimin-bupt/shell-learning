@@ -45,6 +45,16 @@ other_numbers="1 2 3"
 
 ## Variable Assignment
 
+- =
+
+1. The assignment operator(no space before and after)
+
+2. test operator
+
+[Example plain variable assignmnet](../../script/Chapter-3-Introduction-to-Variables-and-Parameters/plain-variable-assignmnet.sh)
+[Example variable assignmnet,plain and fancy](../../script/Chapter-3-Introduction-to-Variables-and-Parameters/variable-assignmnet-plain-fancy.sh)
+
+
 ## Bash Variables Are Untyped
 
 ## Special Variable Types
