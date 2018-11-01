@@ -64,4 +64,44 @@ Bash does not segregate its variables by "type".
 - The determining factor is whether the value of a variable contains only digits.
 
 [Integer or stirng](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/integer-or-string.sh)
+
 ## Special Variable Types
+
+- Local variables
+
+Variables visible only within a code block or function.
+
+- Environmental variables
+
+Variables that affect the behavior of the shell and user interface.
+
+Every time a shell starts,it creates shell variables that correspond to its own environmental variables.Updating or adding new environmental variables causes the shell to update its environment,and all the shell's child processes(The commands it executes) inherit this environment.
+
+**Note**
+The space allotted to the environment is limited.Creating too many environmentalk variables or ones that use up excessive space may cause problems.
+
+If a script sets environmental variables,they need to be "exported", reported to the environment local to the script.
+**But** A script can export variables only to child processes,that is, only to commands or processes which that particular script initaies.A script invoked from the command-line cannot export variables back to the command-line environment. Child processes(which is a subprocess launched by another process(parent)) connot export variables back to the parent processes that spawned them.
+
+- Arguments
+
+Arguments passed to the script from the command line: $0,$1,$2,$3,......
+
+  - $0: The name of the script it self
+  - $1: The first argument
+  - $2: The second argument
+  - $*: All of the positional parameters, seen as a single word
+  - $@: All of the positional parameters, but each parameter is a quoted string
+  - $#: The number of positional parameters
+
+[Example Positional Parameters](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/positional-parameters.sh)
+
+- Shift Command
+
+The shift command reassigns the positional parameters, in effect shifting them to the let on notch.
+
+$1 \<--- $2, $2 \<--- $3,$3 \<--- $4,etc.
+
+The old $1 disappears,but $0(the script name) does not change.
+
+[Example Using Shift](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/using-shift.sh)
