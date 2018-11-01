@@ -106,4 +106,4 @@ $1 \<--- $2, $2 \<--- $3,$3 \<--- $4,etc.
 
 The old $1 disappears,but $0(the script name) does not change.
 
-[Example Using Shift](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/using-shift.sh)
+[Example: Using Shift](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/using-shift.sh)
