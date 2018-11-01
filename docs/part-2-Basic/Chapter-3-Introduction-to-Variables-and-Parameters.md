@@ -51,10 +51,17 @@ other_numbers="1 2 3"
 
 2. test operator
 
-[Example plain variable assignmnet](../../script/Chapter-3-Introduction-to-Variables-and-Parameters/plain-variable-assignmnet.sh)
-[Example variable assignmnet,plain and fancy](../../script/Chapter-3-Introduction-to-Variables-and-Parameters/variable-assignmnet-plain-fancy.sh)
+[Example plain variable assignmnet](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/plain-variable-assignmnet.sh)
+[Example variable assignmnet,plain and fancy](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/variable-assignmnet-plain-fancy.sh)
 
 
 ## Bash Variables Are Untyped
 
+Bash does not segregate its variables by "type".
+
+- Essentially,Bash variables are character strings
+- Bash permits arithmetic operations and comparisons on variables.
+- The determining factor is whether the value of a variable contains only digits.
+
+[Integer or stirng](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/integer-or-string.sh)
 ## Special Variable Types
