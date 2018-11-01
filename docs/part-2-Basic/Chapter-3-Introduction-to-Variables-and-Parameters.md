@@ -51,8 +51,10 @@ other_numbers="1 2 3"
 
 2. test operator
 
-[Example plain variable assignmnet](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/plain-variable-assignmnet.sh)
-[Example variable assignmnet,plain and fancy](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/variable-assignmnet-plain-fancy.sh)
+[Example: plain variable assignmnet](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/plain-variable-assignmnet.sh)
+
+
+[Example: variable assignmnet,plain and fancy](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/variable-assignmnet-plain-fancy.sh)
 
 
 ## Bash Variables Are Untyped
@@ -63,7 +65,7 @@ Bash does not segregate its variables by "type".
 - Bash permits arithmetic operations and comparisons on variables.
 - The determining factor is whether the value of a variable contains only digits.
 
-[Integer or stirng](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/integer-or-string.sh)
+[Example: Integer or stirng](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/integer-or-string.sh)
 
 ## Special Variable Types
 
@@ -87,14 +89,14 @@ If a script sets environmental variables,they need to be "exported", reported to
 
 Arguments passed to the script from the command line: $0,$1,$2,$3,......
 
-  - $0: The name of the script it self
-  - $1: The first argument
-  - $2: The second argument
-  - $*: All of the positional parameters, seen as a single word
-  - $@: All of the positional parameters, but each parameter is a quoted string
-  - $#: The number of positional parameters
+  1. $0: The name of the script it self
+  2. $1: The first argument
+  3. $2: The second argument
+  4. $*: All of the positional parameters, seen as a single word
+  5. $@: All of the positional parameters, but each parameter is a quoted string
+  6. $#: The number of positional parameters
 
-[Example Positional Parameters](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/positional-parameters.sh)
+[Example: Positional Parameters](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/positional-parameters.sh)
 
 - Shift Command
 
