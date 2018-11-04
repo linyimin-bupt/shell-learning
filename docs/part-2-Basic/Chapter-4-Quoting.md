@@ -61,3 +61,37 @@ The shell uses the value stored in IFS, which is the space, tab, and newline cha
 [More detail](https://blog.csdn.net/whuslei/article/details/7187639) 
 
 ## Escaping
+
+Escaping is a method of quoting single characters. The escape(\\) preceding a character tells the shell to interpret that character literally.
+
+**Note**:
+
+With certain commands and utilities, such as `echo` and `sed`, escaping a character may have the opposite effect-it can toggle on a special meaning for that character.
+
+Special meanings of certain escaped characters
+
+used with `echo` and `sed`
+
+- \n
+
+means newline
+
+- \r
+
+means return
+
+- \t
+
+means tab
+
+- \v
+
+means vertical tab
+
+- \b
+
+means backspace
+
+- \a 
+
+means alert (beep or flash)
