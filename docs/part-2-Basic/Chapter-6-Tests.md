@@ -86,6 +86,71 @@ fi
 
 ## File test operators
 
+Return true if ...
+
+- \-e
+
+file exits
+
+- \-f
+file is a regular file
+
+- \s
+
+file is not zero size
+
+- \-d
+
+file is a directory
+
+- \-b
+
+file is a block device
+
+- \-c
+
+file is a character device
+
+- \-p
+
+file is a pipe
+
+- \-h
+
+file is a symbolic link
+
+- \-L
+
+file is a symbolic link
+
+- \-S
+
+file is a socket
+
+- \-r
+
+file has read permission(for the user running the test)
+
+- \-w
+
+file has write permission
+
+- \-x
+
+file has execute permission
+
+- \-O
+
+you are owner of file
+
+- f1 -nt f2
+
+file f1 is newer than f2
+
+- f1 -ot f2
+
+file f1 is older than f2
+
 ## Other comparison Operator
 
 ### Integer comparison
