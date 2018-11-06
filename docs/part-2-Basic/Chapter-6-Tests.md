@@ -95,7 +95,7 @@ file exits
 - \-f
 file is a regular file
 
-- \s
+- \-s
 
 file is not zero size
 
