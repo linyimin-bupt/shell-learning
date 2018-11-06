@@ -151,6 +151,25 @@ file f1 is newer than f2
 
 file f1 is older than f2
 
+**Concept**:
+
+- device file
+
+In Unix-like operating system, a device file is an interface to a device driver that appears in file system as if it were an ordinary file. Allow application programs to interact with a device by using its device driver via standard input/output system calls.
+
+- character device
+
+Character device provide unbuffered, direct access to the hardware device.But they do not necessarily allow programs to read or write single characters at a time.
+
+- block device
+
+Block device provide buffered access to hardware device, and provide some abstration from their specifics.Unlike charater devices, block devices will always allow the programmer to read or write a block of any size(including single characters/bytes) and any alignment.
+
+**downside**:
+
+1. Programmers do not know hwo long it will take before written data is passed from the kernel's buffers to the actual device for block devices are buffered.
+2. If the same hardware exposes both character and block devices,there is a risk of data corruption due to clients using the cahrater device being unaware of changes made in the buffers of the block devices
+
 ## Other comparison Operator
 
 ### Integer comparison
