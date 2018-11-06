@@ -107,13 +107,48 @@ file is a directory
 
 file is a block device
 
+```shell
+device0="/dev/sda2"        # / (root directory)
+if [ -c "$device0" ]
+then
+  echo "$device0 is a block device"
+else
+  echo "$device0 is not a block device"
+fi
+```
+
 - \-c
 
 file is a character device
 
+```shell
+device0="/dev/ttyS1"        # PCMCIA modem card.
+if [ -c "$device0" ]
+then
+  echo "$device0 is a character device"
+else
+  echo "$device0 is not a character device"
+fi
+```
+
 - \-p
 
 file is a pipe
+
+```shell
+function shoe_input_type() {
+  [ -p /dev/fd/0 ] && echo PIPE || echo STDIN
+}
+
+show_input_type "Input"           # STDIN
+echo "Input" | show_input_type    # PIPE
+```
+
+**note**:
+
+fd - file descriptor files
+
+The /dev/fd file system is a pseudo-file system layered beneath the Virtual File System(VFS).The file descriptor files(fd*) are those files that are accessible through file descriptors. The file descriptors use naming convention /dev/fd/0, /dev/fd/1, /dev/fd/2 and so on up to any number.
 
 - \-h
 
