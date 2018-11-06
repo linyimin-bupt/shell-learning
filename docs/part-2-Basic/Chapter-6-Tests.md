@@ -186,6 +186,10 @@ file f1 is newer than f2
 
 file f1 is older than f2
 
+------
+
+[Example: file test operator](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/file-test-operator.sh)
+
 **Concept**:
 
 - device file
