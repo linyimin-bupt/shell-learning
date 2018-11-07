@@ -211,7 +211,146 @@ Block device provide buffered access to hardware device, and provide some abstra
 
 ## Other comparison Operator
 
+A binary comparison operator compares two variables or quantities.Note that integer and string comparison use a different set of operators.
+
 ### Integer comparison
+
+- \-eq
+
+is equal to
+
+`if [ "$a" -eq "$b" ]`
+
+- \-ne
+
+is not equal to
+
+`if [ "$a" -ne "$b" ]`
+
+
+- \-gt
+
+is greater than 
+
+`if [ "$a" -gt "$b" ]`
+
+- \-ge
+
+is greater than or equal to
+
+`if [ "$a" -ge "$b" ]`
+
+
+- \-lt
+
+is less than
+
+`if [ "$a" -lt "$b" ]`
+
+- \-le
+
+is less than or equal to
+
+`if [ "$a" -le "$b" ]`
+
+
+- <
+
+is less than(within double parenthess)
+
+`(("$a" < "$b"))`
+
+- <=
+
+is less than or equal to(within double parenthess)
+
+`(("$a" <= "$b"))`
+
+- \>
+
+is greater than(within double parenthess)
+
+`(("$a" > "$b"))`
+
+
+- \>=
+
+is greater than or equal to(within double parenthess)
+
+`(("$a" >= "$b"))`
 
 ### String comparison
 
+- =
+
+is equal to
+
+`if [ "$a" = "$b" ]`
+
+- ==
+
+is equal to(A synonym for =)
+
+`if [ "$a" == "$b" ]`
+
+
+- !=
+
+is not equal to
+
+`if [ "$a" != "$b" ]`
+
+- <
+
+is less than, in `ASCII` alphabetical order.
+
+`if [ "$a" \< "$b" ]`
+
+`if [[ "$a" < "$b" ]]`
+
+- \>
+
+is greater than, in `ASCII` alphabetical order.
+
+`if [ "$a" \> "$b" ]`
+
+`if [[ "$a" > "$b" ]]`
+
+
+- \-z
+
+string is null,that is, has zero length.
+
+`if [ -z "$a" ]`
+
+- \-n
+
+string is not null
+
+`if [ -n "$a" ]`
+
+### Compound comparison
+
+- \-a
+
+Logical and
+
+exp1 -a exp2 returns true if both exp1 and exp2 are true.
+
+- &&
+
+Logical and(within a double parenthess)
+
+- \-o
+
+Logical or
+
+exp1 -o exp2 returns true if either exp1 or exp2 is true.
+
+- ||
+
+Logical or(within a double parenthess)
+
+[Example 1: Arithmetic and string comparison](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/arithmetic-and-string-comparison.sh)
+
+[Example 2: Testing whether a string is null](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/testing-whether-a-string-is-null.sh)
