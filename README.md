@@ -7,6 +7,8 @@ shell programming learning record
 
 ## Part 2 Basic
 
+### Docs
+
 [Chapter 2 Spaecial Character](docs/part-2-Basic/Chapter-2-Special-Characters.md)
 
 [Chapter 3 Introduction to varialbes and parameters](docs/part-2-Basic/Chapter-3-Introduction-to-Variables-and-Parameters.md)
@@ -17,6 +19,52 @@ shell programming learning record
 
 [Chapter 6 Tests](docs/part-2-Basic/Chapter-6-Tests.md)
 
+### Example Script
+
+[example 1: arithmetic-and-string-comparison](scripts/Part-2-Basic/arithmetic-and-string-comparison.sh)
+
+[example 2: code-blocks-Input-redirection](scripts/Part-2-Basic/code-blocks-Input-redirection.sh)
+
+[example 3: code-blocks-output-redirection](scripts/Part-2-Basic/code-blocks-output-redirection.sh)
+
+[example 4: echo-wired-variable](scripts/Part-2-Basic/echo-wired-variable.sh)
+
+[example 5: exit-and-exit-status](scripts/Part-2-Basic/exit-and-exit-status.sh)
+
+[example 6: file-test-operator](scripts/Part-2-Basic/file-test-operator.sh)
+
+[example 7: integer-or-string](scripts/Part-2-Basic/integer-or-string.sh)
+
+[example 8: negating-a-condition-using-!](scripts/Part-2-Basic/negating-a-condition-using-!.sh)
+
+[example 9: plain-variable-assignmnet](scripts/Part-2-Basic/plain-variable-assignmnet.sh)
+
+[example 10: positional-parameters](scripts/Part-2-Basic/positional-parameters.sh)
+
+[example 11: quotes-split](scripts/Part-2-Basic/quotes-split.sh)
+
+[example 12: testing-whether-a-string-is-null](scripts/Part-2-Basic/testing-whether-a-string-is-null.sh)
+
+[example 13: using-shift](scripts/Part-2-Basic/using-shift.sh)
+
+[example 14: variable-assignmnet-plain-fancy](scripts/Part-2-Basic/variable-assignmnet-plain-fancy.sh)
+
+[example 15: varible-assignment-substitution](scripts/Part-2-Basic/varible-assignment-substitution.sh)
+
+
+
 ## Part 3 Beyond the basic
 
+### Docs
+
 [Chapter 7 Another Look at Variables](docs/Part-3-Beyond-the-Basic/Chapter-7-Another-Look-at-Variable.md)
+
+### Example Script
+
+[example 1: IFS-and-Whitespace](scripts/Part-3-Beyond-the-Basic/IFS-and-Whitespace.sh)
+
+[example 2: reply](scripts/Part-3-Beyond-the-Basic/reply.sh)
+
+[example 3: second](scripts/Part-3-Beyond-the-Basic/second.sh)
+
+[example 4: timeout](scripts/Part-3-Beyond-the-Basic/timeout.sh)
