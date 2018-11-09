@@ -58,6 +58,8 @@ This variable determines how Bash recognizes fields, or word boundaries,when it 
 
 $IFS defaults to `whitespace`(space, tab, and newline),but may be changed.
 
+[Example 1: $IFS and whitespace](../../scripts/Part-3-Beyond-the-Basic/IFS-and-Whitespace.sh)
+
 - $PATH
 
 Path to binaries.
