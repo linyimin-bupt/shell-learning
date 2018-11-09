@@ -225,7 +225,7 @@ echo "a = $a"   # a = 321
 ```
 The code block enclosed in braces may have I/O redirected to and from it.
 
-[Example 3-1](../../scripts/Chapter-2-Special-Character/code-blocks-Input-redirection.sh) Code blocks and I/O redirection
+[Example 3-1](../../scripts/Part-2-Basic/code-blocks-Input-redirection.sh) Code blocks and I/O redirection
 
 ```shell
 #! /bin/bash

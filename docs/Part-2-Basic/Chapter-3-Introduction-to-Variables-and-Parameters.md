@@ -51,10 +51,10 @@ other_numbers="1 2 3"
 
 2. test operator
 
-[Example: plain variable assignmnet](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/plain-variable-assignmnet.sh)
+[Example: plain variable assignmnet](../../scripts/Part-2-Basic/plain-variable-assignmnet.sh)
 
 
-[Example: variable assignmnet,plain and fancy](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/variable-assignmnet-plain-fancy.sh)
+[Example: variable assignmnet,plain and fancy](../../scripts/Part-2-Basic/variable-assignmnet-plain-fancy.sh)
 
 
 ## Bash Variables Are Untyped
@@ -65,7 +65,7 @@ Bash does not segregate its variables by "type".
 - Bash permits arithmetic operations and comparisons on variables.
 - The determining factor is whether the value of a variable contains only digits.
 
-[Example: Integer or stirng](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/integer-or-string.sh)
+[Example: Integer or stirng](../../scripts/Part-2-Basic/integer-or-string.sh)
 
 ## Special Variable Types
 
@@ -96,7 +96,7 @@ Arguments passed to the script from the command line: $0,$1,$2,$3,......
   5. $@: All of the positional parameters, but each parameter is a quoted string
   6. $#: The number of positional parameters
 
-[Example: Positional Parameters](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/positional-parameters.sh)
+[Example: Positional Parameters](../../scripts/Part-2-Basic/positional-parameters.sh)
 
 - Shift Command
 
@@ -106,4 +106,4 @@ $1 \<--- $2, $2 \<--- $3,$3 \<--- $4,etc.
 
 The old $1 disappears,but $0(the script name) does not change.
 
-[Example: Using Shift](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/using-shift.sh)
+[Example: Using Shift](../../scripts/Part-2-Basic/using-shift.sh)

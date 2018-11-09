@@ -23,11 +23,11 @@ exit
 - The equivalent of a bare `exit` is `exit $?` or even just omitting the `exit`
 
 
-- $? reads the exit code of the last command executed.[example 1: exit and exit status](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/exit-and-exit-status.sh)
+- $? reads the exit code of the last command executed.[example 1: exit and exit status](../../scripts/Part-2-Basic/exit-and-exit-status.sh)
 
 
 - After a function returns,$? gives the exit status of the alst command executed in the function.
 
 - Following the execution of a `pipe`, a $? gives the exit status of the last command executed.
 
-- Use ! to negate a condition [Example2: Negeting a condition using](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/negating-a-condition-using-!.sh)
+- Use ! to negate a condition [Example2: Negeting a condition using](../../scripts/Part-2-Basic/negating-a-condition-using-!.sh)

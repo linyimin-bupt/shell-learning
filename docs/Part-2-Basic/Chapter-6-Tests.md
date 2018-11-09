@@ -188,7 +188,7 @@ file f1 is older than f2
 
 ------
 
-[Example: file test operator](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/file-test-operator.sh)
+[Example: file test operator](../../scripts/Part-2-Basic/file-test-operator.sh)
 
 **Concept**:
 
@@ -351,6 +351,6 @@ exp1 -o exp2 returns true if either exp1 or exp2 is true.
 
 Logical or(within a double parenthess)
 
-[Example 1: Arithmetic and string comparison](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/arithmetic-and-string-comparison.sh)
+[Example 1: Arithmetic and string comparison](../../scripts/Part-2-Basic/arithmetic-and-string-comparison.sh)
 
-[Example 2: Testing whether a string is null](../../scripts/Chapter-3-Introduction-to-Variables-and-Parameters/testing-whether-a-string-is-null.sh)
+[Example 2: Testing whether a string is null](../../scripts/Part-2-Basic/testing-whether-a-string-is-null.sh)
