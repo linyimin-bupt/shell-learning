@@ -97,6 +97,8 @@ The default value when a variable is not supplied to `read`.
 
 The number of seconds the script has been running.
 
+[Example 3: second](../../scritps/Part-3-Beyond-the-Basic/second.sh)
+
 - $SHLVL
 
 Shell level, how deeply Bash is nested.
