@@ -16,3 +16,7 @@ shell programming learning record
 [Chapter 5 Exit and Exit Status](docs/part-2-Basic/Chapter-5-Exit-and-Exit-Status.md)
 
 [Chapter 6 Tests](docs/part-2-Basic/Chapter-6-Tests.md)
+
+## Part 3 Beyond the basic
+
+[Chapter 7 Another Look at Variables](docs/Part-3-Beyond-the-Basic/Chapter-7-Another-Look-at-Variable.md)
