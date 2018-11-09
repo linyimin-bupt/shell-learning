@@ -107,6 +107,8 @@ Shell level, how deeply Bash is nested.
 
 If the $TMOUT environmenttal variable is set to a non-zero value time,then the shell promt will time out after $time seconds.This will cause a logout.
 
+[Example 4: TMOUT](../../scripts/Part-3-Beyond-the-Basic/timeout.sh)
+
 - $UID
 
 User ID number.
