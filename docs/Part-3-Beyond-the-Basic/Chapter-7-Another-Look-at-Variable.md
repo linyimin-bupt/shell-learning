@@ -115,6 +115,8 @@ User ID number.
 
 Current user's real id. And $UID is a readonly variable.root has $UID 0.
 
+[Example 5: am i root](../../scripts/Part-3-Beyond-the-Basic/am-i-root.sh)
+
 **Positional Parameters**
 - $0, $1, $2, $3
 

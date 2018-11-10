@@ -68,3 +68,5 @@ shell programming learning record
 [example 3: second](scripts/Part-3-Beyond-the-Basic/second.sh)
 
 [example 4: timeout](scripts/Part-3-Beyond-the-Basic/timeout.sh)
+
+[example 5: uid](scripts/Part-3-Beyond-the-Basic/am-i-root.sh)
