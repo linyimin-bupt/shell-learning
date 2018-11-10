@@ -70,3 +70,5 @@ shell programming learning record
 [example 4: timeout](scripts/Part-3-Beyond-the-Basic/timeout.sh)
 
 [example 5: uid](scripts/Part-3-Beyond-the-Basic/am-i-root.sh)
+
+[example 6: $* and $@](scripts/Part-3-Beyond-the-Basic/inconsistent-internal-variables-behavior.sh)

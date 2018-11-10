@@ -131,6 +131,8 @@ All of positional parameters, seen as a single word.("$*") must be quoted.
 
 - $@
 
+[Example 6: $* and $@](../../scripts/Part-3-Beyond-the-Basic/inconsistent-internal-variables-behavior.sh)
+
 Same as $*, but each parameter is a quoted string,that is, the parameters are passed on intact,without interpretation or extendsion.This means, among other strings,that each parameter in the argument list is seen as a separate wrod.
 
 - $-
