@@ -59,6 +59,8 @@ shell programming learning record
 
 [Chapter 7 Another Look at Variables](docs/Part-3-Beyond-the-Basic/Chapter-7-Another-Look-at-Variable.md)
 
+[Chapter 8 Manipulating Variables](docs/Part-3-Beyond-the-Basic/Chapter-8-Manipulating-Variables.md)
+
 ### Example Script
 
 [example 1: IFS-and-Whitespace](scripts/Part-3-Beyond-the-Basic/IFS-and-Whitespace.sh)
@@ -72,3 +74,7 @@ shell programming learning record
 [example 5: uid](scripts/Part-3-Beyond-the-Basic/am-i-root.sh)
 
 [example 6: $* and $@](scripts/Part-3-Beyond-the-Basic/inconsistent-internal-variables-behavior.sh)
+
+[example 7 substring extrction](scripts/Part-3-Beyond-the-Basic/substring-extraction.sh)
+
+[example 8 generating an 8-character random string](scripts/Part-3-Beyond-the-Basic/generating-an-8-character-random-string.sh)
