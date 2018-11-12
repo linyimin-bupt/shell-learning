@@ -61,6 +61,22 @@ Deletes shortest match of $substring from front of $string.
 
 Deletes longest match of $substring from front of $string.
 
+```shell
+stringZ=abcABC123ABCabc
+
+echo ${stringZ#a*C}         # 123ABCabc(shortest)
+
+echo ${stringZ##a*C}        # abc(longest)
+
+# We can parameterize the substrings
+
+X='a*C'
+
+echo ${tringZ#$Xs}          # 123ABCabc(shortest)
+echo ${stringZ##$X}         # abc(longest)
+
+```
+
 - ${string%substring}
 
 Deletes shortest match of $substring from back of $string.
@@ -68,6 +84,17 @@ Deletes shortest match of $substring from back of $string.
 - ${string%%substring}
 
 Deletes longest match of $substring from back of $string.
+
+```shell
+stringZ=abcABC123ABCabc
+
+echo ${stringZ%b*c}         # abcABC123ABCa(shortest)
+
+echo ${stringZ%%b*c}        # a(longest)
+
+```
+
+This operator is usful for generate filenames.
 
 **Substring Replacement**
 
