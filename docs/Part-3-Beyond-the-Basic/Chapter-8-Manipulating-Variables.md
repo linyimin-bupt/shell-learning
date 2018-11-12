@@ -96,6 +96,8 @@ echo ${stringZ%%b*c}        # a(longest)
 
 This operator is usful for generate filenames.
 
+[Example change suffix name](../../scripts/Part-3-Beyond-the-Basic/change-suffix-name.sh)
+
 **Substring Replacement**
 
 - ${string/substring/replacement}

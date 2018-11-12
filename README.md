@@ -78,3 +78,5 @@ shell programming learning record
 [example 7 substring extrction](scripts/Part-3-Beyond-the-Basic/substring-extraction.sh)
 
 [example 8 generating an 8-character random string](scripts/Part-3-Beyond-the-Basic/generating-an-8-character-random-string.sh)
+
+[example 9 change suffix name](scripts/Part-3-Beyond-the-Basic/change-suffix-name.sh)
