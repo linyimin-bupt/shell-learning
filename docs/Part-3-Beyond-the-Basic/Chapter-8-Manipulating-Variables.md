@@ -116,7 +116,7 @@ If $substring matches front end of $string, substitute $replacement for $substri
 
 If $substring matches back end of $string,substitute $repalcement for $substring.
 
-[example: substring replacement]()
+[example: substring replacement](../../scripts/Part-3-Beyond-the-Basic/substring-replacement.sh)
 
 
 ## Parameter Substitution
