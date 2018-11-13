@@ -116,6 +116,8 @@ If $substring matches front end of $string, substitute $replacement for $substri
 
 If $substring matches back end of $string,substitute $repalcement for $substring.
 
+[example: substring replacement]()
+
 
 ## Parameter Substitution
 
