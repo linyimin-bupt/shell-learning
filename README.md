@@ -82,3 +82,5 @@ shell programming learning record
 [example 9 change suffix name](scripts/Part-3-Beyond-the-Basic/change-suffix-name.sh)
 
 [example 10 substring replacement](scripts/Part-3-Beyond-the-Basic/change-suffix-name.sh)
+
+[example 11 default value](scripts/Part-3-Beyond-the-Basic/default-value.sh)

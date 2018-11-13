@@ -121,3 +121,61 @@ If $substring matches back end of $string,substitute $repalcement for $substring
 
 ## Parameter Substitution
 
+- ${parameter}
+
+May be use to concatenating variables with strings.
+
+```shell
+your_id=${USER}-on-${HOSTNAME}
+echo "$your_id"
+```
+
+- ${parameter-default}, ${parameter:-default}
+
+If parameter not set,use default.
+
+```shell
+var1=1
+var2=2
+# var3 is unset
+
+echo ${var1-$var2}       # 1
+echo ${var3-$var2}       # 2
+echo ${var3-$var1}       # 1
+```
+
+**Note**: ${parameter-default} and ${parameter:-default} are almost equivalent.The extra: makes a difference only when `parameter` has been declared,but is null.
+
+[example default value](../../scripts/Part-3-Beyond-the-Basic/default-value.sh)
+
+- ${parameter=default}, ${parameter:=default}
+
+If parameter not set,set it to default.
+
+
+```shell
+echo ${var:=123}      # 123
+echo ${var:=456}      # 456
+```
+**Note**: ${parameter=default} and ${parameter:=default} are almost equivalent.The extra: makes a difference only when `parameter` has been declared,but is null.
+
+- ${parameter?err_msg}, ${parameter:?err_msg}
+
+If paramete set,use it,else print `err_msg` and abort the script with an `exit status` of 1.
+
+**Note**:Both forms nearly equivalent.The: makes a difference only when parameter has been declared and is null, as above.
+
+
+- \${!varprefix*},\${!varprefix@}
+
+Matches names of all previously declared variables beginning with `varprefix`
+
+```shell
+xyz23=whatever
+xyz24=
+
+a=${!xyz*}         #  Expands to *names* of declared variables
+echo "a = $a"      #  a = xyz23 xyz24
+a=${!xyz@}         #  Same as above.
+echo "a = $a"      #  a = xyz23 xyz24
+```
