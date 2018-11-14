@@ -61,6 +61,8 @@ shell programming learning record
 
 [Chapter 8 Manipulating Variables](docs/Part-3-Beyond-the-Basic/Chapter-8-Manipulating-Variables.md)
 
+[Chapter 9 Loops](docs/Part-3-Beyond-the-Basic/Chapter-9-Loops.md)
+
 ### Example Script
 
 [example 1: IFS-and-Whitespace](scripts/Part-3-Beyond-the-Basic/IFS-and-Whitespace.sh)
