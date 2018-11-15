@@ -86,3 +86,7 @@ shell programming learning record
 [example 10 substring replacement](scripts/Part-3-Beyond-the-Basic/change-suffix-name.sh)
 
 [example 11 default value](scripts/Part-3-Beyond-the-Basic/default-value.sh)
+
+[example 12 simple for loop](scripts/Part-3-Beyond-the-Basic/simple-for-loops.sh)
+
+[example 13 two parameters in each elements](scripts/Part-3-Beyond-the-Basic/two-parameters-in-each-elements.sh)

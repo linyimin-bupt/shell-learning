@@ -17,6 +17,9 @@ done
 
 [Example simple for loops](../../scripts/Part-3-Beyond-the-Basic/simple-for-loops.sh)
 
+[Example for loop with two parameters in each [list] element](../../scripts/Part-3-Beyond-the-Basic/two-parameters-in-each-elements.sh)
+
+
 - while
 
 This construct tests for a condition as the top of a loop, and keeps looping as long as that condition is true(return a 0 exit status).In contrast to a `for loop`, a `while loop` finds use in situations where the number of loop repetitions is not known beforehand.
@@ -30,7 +33,7 @@ done
 
 - until
 
-This construct tests for a condition at the top of a loop,and keeps looping as long as that condition is `false`(opposite of `while` loop)
+This construct tests for a condition at the top of a loop,and keeps looping as long as that condition is `false` (opposite of `while` loop)
 
 ```shell
 until [ condition-is-true ]
