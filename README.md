@@ -92,3 +92,5 @@ shell programming learning record
 [example 13 two parameters in each elements](scripts/Part-3-Beyond-the-Basic/two-parameters-in-each-elements.sh)
 
 [example 14 operating a file list contained in a variable](scripts/Part-3-Beyond-the-Basic/operating-a-file-list-contained-in-a-variable.sh)
+
+[example 15 operating on a p](scripts/Part-3-Beyond-the-Basic/operating-on-a-parameterized-file-list.sh)

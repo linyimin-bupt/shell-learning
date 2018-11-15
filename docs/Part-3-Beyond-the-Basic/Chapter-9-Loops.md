@@ -21,6 +21,9 @@ done
 
 [Eaxmple Fileinfo: operating on a file list contained in a variable](../../scripts/Part-3-Beyond-the-Basic/operating-a-file-list-contained-in-a-variable.sh)
 
+[Example operating on a parameterized file list](../../scripts/Part-3-Beyond-the-Basic/operating-on-a-parameterized-file-list.sh)
+
+**Note**： If the list in a `for loop` contains wild cards(* and ?) used in filename expansion, then `globbing` takes place.And operates files only in $PWD.
 
 - while
 
