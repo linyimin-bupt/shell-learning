@@ -19,6 +19,8 @@ done
 
 [Example for loop with two parameters in each [list] element](../../scripts/Part-3-Beyond-the-Basic/two-parameters-in-each-elements.sh)
 
+[Eaxmple Fileinfo: operating on a file list contained in a variable](../../scripts/Part-3-Beyond-the-Basic/operating-a-file-list-contained-in-a-variable.sh)
+
 
 - while
 

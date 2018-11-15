@@ -90,3 +90,5 @@ shell programming learning record
 [example 12 simple for loop](scripts/Part-3-Beyond-the-Basic/simple-for-loops.sh)
 
 [example 13 two parameters in each elements](scripts/Part-3-Beyond-the-Basic/two-parameters-in-each-elements.sh)
+
+[example 14 operating a file list contained in a variable](scripts/Part-3-Beyond-the-Basic/operating-a-file-list-contained-in-a-variable.sh)
