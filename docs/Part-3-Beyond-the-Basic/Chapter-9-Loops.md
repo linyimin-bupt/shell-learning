@@ -53,5 +53,44 @@ done
 
 
 ## Nested Loops
+
+A nested loop is a loop within a loop, an inner loop within the body of an outer one.
+
 ## Loops Control
+
+### Commands affecting loop behavior
+
+- break and continue
+
+THe `break` and `continue` loop control commands corresond exactly to their counterparts in other programming languages.The `break` command terminates the loop(breaks out of it),while `continue` causes a jump to the next iteration of the loop skipping all the remaining commands in that particular loop cycle. 
+
+
 ## Testing and Branching
+
+The `case` and `select` construct are technically not loop, since they dont iterate the excution of a code block.Like loops, however, they direct program flow according to conditions at the top or bottom of the block.
+
+- case(in)/esac
+
+The  `case` construct is the shell script analog to `switch` in C/C++.It permits branching to one of a number of code blocks,depending on condition tests.It serves as a kind of shorthand for multiple if/then/else statements and is an appropriate tool for creating menus.
+
+```shell
+case  "$variable" in
+"$condiiotn1")
+  command...
+;;;
+
+"$condiiotn2")
+  command...
+;;;
+
+esac
+```
+
+**Note**:
+
+- Quoting the variables is not mandatory,since word spliting does not take place.
+- Each test ends with a right paren )
+- Each condition block ends with a `double semicolon`
+- If a condition tests true,then the associated commands execute and the `case` block terminates.
+- The entire `case` block ends with an `esac`
+
