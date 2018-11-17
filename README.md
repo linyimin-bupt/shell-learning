@@ -94,3 +94,5 @@ shell programming learning record
 [example 14 operating a file list contained in a variable](scripts/Part-3-Beyond-the-Basic/operating-a-file-list-contained-in-a-variable.sh)
 
 [example 15 operating on a p](scripts/Part-3-Beyond-the-Basic/operating-on-a-parameterized-file-list.sh)
+
+[Example 16 mssing list in a for loop](scripts/Part-3-Beyond-the-Basic/mssing-list-in-a-loop.sh)

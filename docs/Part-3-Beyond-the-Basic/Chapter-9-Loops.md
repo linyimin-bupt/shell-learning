@@ -23,6 +23,8 @@ done
 
 [Example operating on a parameterized file list](../../scripts/Part-3-Beyond-the-Basic/operating-on-a-parameterized-file-list.sh)
 
+[Example missing in list in a for loop](../../scripts/Part-3-Beyond-the-Basic/mssing-list-in-a-loop.sh) 
+
 **Note**： If the list in a `for loop` contains wild cards(* and ?) used in filename expansion, then `globbing` takes place.And operates files only in $PWD.
 
 - while
