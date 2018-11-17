@@ -96,3 +96,5 @@ shell programming learning record
 [example 15 operating on a p](scripts/Part-3-Beyond-the-Basic/operating-on-a-parameterized-file-list.sh)
 
 [Example 16 mssing list in a for loop](scripts/Part-3-Beyond-the-Basic/mssing-list-in-a-loop.sh)
+
+[Example 17 generating list with command substitution](scripts/Part-3-Beyond-the-Basic/generating-list-with-command-substitution.sh)
