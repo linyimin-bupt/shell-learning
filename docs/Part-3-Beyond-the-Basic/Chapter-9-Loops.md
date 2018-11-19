@@ -64,6 +64,7 @@ A nested loop is a loop within a loop, an inner loop within the body of an outer
 
 THe `break` and `continue` loop control commands corresond exactly to their counterparts in other programming languages.The `break` command terminates the loop(breaks out of it),while `continue` causes a jump to the next iteration of the loop skipping all the remaining commands in that particular loop cycle. 
 
+[Example Effects of break and continue in a loop](../../scripts/Part-3-Beyond-the-Basic/break-and-continue-in-a-loop.sh)
 
 ## Testing and Branching
 

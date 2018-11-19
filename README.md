@@ -98,3 +98,5 @@ shell programming learning record
 [Example 16 mssing list in a for loop](scripts/Part-3-Beyond-the-Basic/mssing-list-in-a-loop.sh)
 
 [Example 17 generating list with command substitution](scripts/Part-3-Beyond-the-Basic/generating-list-with-command-substitution.sh)
+
+[Example 18 effects of continue and break in a loop](scripts/Part-3-Beyond-the-Basic/break-and-continue-in-a-loop.sh)
