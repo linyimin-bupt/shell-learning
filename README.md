@@ -100,3 +100,5 @@ shell programming learning record
 [Example 17 generating list with command substitution](scripts/Part-3-Beyond-the-Basic/generating-list-with-command-substitution.sh)
 
 [Example 18 effects of continue and break in a loop](scripts/Part-3-Beyond-the-Basic/break-and-continue-in-a-loop.sh)
+
+[Example 19 Using case](scripts/Part-3-Beyond-the-Basic/using-case.sh)

@@ -87,6 +87,8 @@ case  "$variable" in
 esac
 ```
 
+[Eaxmple Using case](../../scripts/Part-3-Beyond-the-Basic/using-case.sh)
+
 **Note**:
 
 - Quoting the variables is not mandatory,since word spliting does not take place.
