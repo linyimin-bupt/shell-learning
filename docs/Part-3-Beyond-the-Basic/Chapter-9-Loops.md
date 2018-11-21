@@ -103,6 +103,8 @@ done
 
 This prompts user to enter one of the choices presented in the variable list.**Note**: `select` uses the $PS3 prompt(#?) by default,but this may be changed.
 
+[Example Creating menus using select](../../scripts/Part-3-Beyond-the-Basic/creating-menus-using-select.sh)
+
 **Note**:
 
 - Quoting the variables is not mandatory,since word spliting does not take place.

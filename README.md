@@ -102,3 +102,5 @@ shell programming learning record
 [Example 18 effects of continue and break in a loop](scripts/Part-3-Beyond-the-Basic/break-and-continue-in-a-loop.sh)
 
 [Example 19 Using case](scripts/Part-3-Beyond-the-Basic/using-case.sh)
+
+[Example 20 Creating menus using select](scripts/Part-3-Beyond-the-Basic/creating-menus-using-select.sh)
