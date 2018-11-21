@@ -89,6 +89,20 @@ esac
 
 [Eaxmple Using case](../../scripts/Part-3-Beyond-the-Basic/using-case.sh)
 
+- select
+
+The `select` construct,adpoted from the Korn Shell, is yet another tool for building menus.
+
+```shell
+select variable [in list]
+do
+  command...
+  break
+done
+```
+
+This prompts user to enter one of the choices presented in the variable list.**Note**: `select` uses the $PS3 prompt(#?) by default,but this may be changed.
+
 **Note**:
 
 - Quoting the variables is not mandatory,since word spliting does not take place.
