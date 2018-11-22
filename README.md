@@ -63,6 +63,8 @@ shell programming learning record
 
 [Chapter 9 Loops](docs/Part-3-Beyond-the-Basic/Chapter-9-Loops.md)
 
+[Chapter 10 Command Substitution](docs/Part-3-Beyond-the-Basic/Chapter-10-Command-Substitution.md)
+
 ### Example Script
 
 [example 1: IFS-and-Whitespace](scripts/Part-3-Beyond-the-Basic/IFS-and-Whitespace.sh)
@@ -104,3 +106,5 @@ shell programming learning record
 [Example 19 Using case](scripts/Part-3-Beyond-the-Basic/using-case.sh)
 
 [Example 20 Creating menus using select](scripts/Part-3-Beyond-the-Basic/creating-menus-using-select.sh)
+
+[Example 21 Generating a variable from a loop](scripts/Part-3-Beyond-the-Basic/generating-a-variable-from-a-loop.sh)
