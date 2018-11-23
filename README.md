@@ -108,3 +108,13 @@ shell programming learning record
 [Example 20 Creating menus using select](scripts/Part-3-Beyond-the-Basic/creating-menus-using-select.sh)
 
 [Example 21 Generating a variable from a loop](scripts/Part-3-Beyond-the-Basic/generating-a-variable-from-a-loop.sh)
+
+## Part-4-Commands
+
+### Docs
+
+[Chapter-11-Commands](docs/Part-4-Commands/Chapter-11-Internal-Commands-and-Buildins.md)
+
+### scripts
+
+[Example 1 script spawns multiple instances of itself](scripts/Part-4-Commands/script-spawns-multiple-instances-of-itself.sh)
