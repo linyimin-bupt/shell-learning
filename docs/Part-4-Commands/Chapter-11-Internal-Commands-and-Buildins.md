@@ -38,6 +38,12 @@ the `$IFS` (internal Field separator) variable normally contains \n as one of it
 
 #### printf
 
+The `Print`, formatted print,command is an enhanced `echo`,It is a limited variant of the C language `printf()` library function, and its syntax is somewhat different.
+
+print format-string... parameter...
+
+[Example printf in action](../../scripts/Part-4-Commands/printf-in-action.sh)
+
 #### read
 
 ### Filesystem

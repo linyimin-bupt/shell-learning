@@ -118,3 +118,5 @@ shell programming learning record
 ### scripts
 
 [Example 1 script spawns multiple instances of itself](scripts/Part-4-Commands/script-spawns-multiple-instances-of-itself.sh)
+
+[Example 2 printf in action](scripts/Part-4-Commands/printf-in-action.sh)
