@@ -122,3 +122,7 @@ shell programming learning record
 [Example 2 printf in action](scripts/Part-4-Commands/printf-in-action.sh)
 
 [Example 3 variables assignment using read](scripts/Part-4-Commands/variable-assignment-using-read.sh)
+
+[Example 4 letting let do arthmetic](scripts/Part-4-Commands/letting-let-do-arithmetic.sh)
+
+[Example 5 let command return a surprising exit status](scripts/Part-4-Commands/let-command-return-a-surprising-exit-status.sh)

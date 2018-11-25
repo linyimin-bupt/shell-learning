@@ -56,13 +56,23 @@ A `read` without an associated variable assigns its input to the dedicated varia
 
 #### cd 
 
+The `cd` change directory command finds use in scripts where execution of a commnad requires being in a specified directory.
+
 #### pwd
 
-#### pushd, popd, dirs
+Print Working Directory. This gives the user's(r script'so current directory. The effect is identical to reading the value of the builtin variable `#PWD`)
 
 ### Variables
 
 #### let
+
+THe `let` command carries out arithmetic operations on variables. In many cases, it functions as a less complex version of `expr`.
+
+[Example letting let command do arithmetic](../../scripts/letting-let-do-arithmetic.sh)
+
+**Note**: The `let` command can, in certain contexts, return a surpurising `exit status`
+
+[Example let command return a surprising exit status](../../scripts/let-command-return-a-surprising-exit-status.sh)
 
 #### eval
 
