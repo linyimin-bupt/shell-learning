@@ -46,6 +46,12 @@ print format-string... parameter...
 
 #### read
 
+"Reads" the value of a variable from stdin, that is, interactively fetches input from the keyboard.The `-a` option lets `read` get array variables.
+
+A `read` without an associated variable assigns its input to the dedicated variable `$REPLY`
+
+[Example Variable assignment, using read](../../scripts/Part-4-Commands/variable-assignment-using-read.sh)
+
 ### Filesystem
 
 #### cd 

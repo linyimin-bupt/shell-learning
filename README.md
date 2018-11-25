@@ -120,3 +120,5 @@ shell programming learning record
 [Example 1 script spawns multiple instances of itself](scripts/Part-4-Commands/script-spawns-multiple-instances-of-itself.sh)
 
 [Example 2 printf in action](scripts/Part-4-Commands/printf-in-action.sh)
+
+[Example 3 variables assignment using read](scripts/Part-4-Commands/variable-assignment-using-read.sh)
