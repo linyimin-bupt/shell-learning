@@ -99,6 +99,12 @@ The `set` command changes the value of internal script variables/options.
 
 #### unset
 
+The `unset` command deletes a shell variable, effectively setting it to null.Note that this command does not affect positional parameters.
+
+**Note**: In most contexts, an undeclared variable and one that has been unset are equivalent.
+
+[Example Unsetting a variable](../../scripts/Part-4-Commands/unsetting-a-variable.sh)
+
 #### export
 
 #### declare,typeset

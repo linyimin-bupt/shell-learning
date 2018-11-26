@@ -128,3 +128,5 @@ shell programming learning record
 [Example 5 let command return a surprising exit status](scripts/Part-4-Commands/let-command-return-a-surprising-exit-status.sh)
 
 [Example 6 Using set with positional parameters](scripts/Part-4-Commands/using-set-with-positional-parameters.sh)
+
+[Example 7 unsetting a variable](scripts/Part-4-Commands/unsetting-a-variable.sh)
