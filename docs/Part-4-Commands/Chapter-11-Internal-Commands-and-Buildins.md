@@ -107,9 +107,15 @@ The `unset` command deletes a shell variable, effectively setting it to null.Not
 
 #### export
 
+The `export` command makes available variables to all child processes of the running script or shell.One import use of the `export` command is in `startup files`, to initialize and make accessible `environmental variables` to subsequent user processes.
+
 #### declare,typeset
 
+The `declare` and `typeset` commands specify and/or restrict properties of variables.
+
 #### readonly
+
+Same as `declare -r`, set a variable as read-only,or,in effect, as a constatnt. Attempts to change the variable fail with an error message.
 
 #### getopts
 
