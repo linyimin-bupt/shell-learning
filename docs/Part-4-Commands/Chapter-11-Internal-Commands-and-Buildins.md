@@ -76,6 +76,10 @@ THe `let` command carries out arithmetic operations on variables. In many cases,
 
 #### eval
 
+eval arg1 [arg2] [arg3] ... [argN]
+
+Combines the arguments in an expression or list of expressions and evaluates them. Any variables whitin the expression are expanded
+
 #### set
 
 #### unset
