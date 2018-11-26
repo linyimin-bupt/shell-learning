@@ -126,3 +126,5 @@ shell programming learning record
 [Example 4 letting let do arthmetic](scripts/Part-4-Commands/letting-let-do-arithmetic.sh)
 
 [Example 5 let command return a surprising exit status](scripts/Part-4-Commands/let-command-return-a-surprising-exit-status.sh)
+
+[Example 6 Using set with positional parameters](scripts/Part-4-Commands/using-set-with-positional-parameters.sh)

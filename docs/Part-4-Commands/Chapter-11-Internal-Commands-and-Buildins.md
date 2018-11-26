@@ -82,6 +82,21 @@ Combines the arguments in an expression or list of expressions and evaluates the
 
 #### set
 
+The `set` command changes the value of internal script variables/options.
+
+**Usage**:
+
+- To toggle `option flags` which help determine the behavior of the script.
+- To reset the `opsitional parameters` that a script sees as the result of a command(set \`command\`),and the script can then parse the `fields` of the command uotput.
+
+**Note**:
+
+- Invoking `set` without any optiona or arguments simply lists all the `environmental` and other variables that have been initialized.
+- Using `set` with the `--` options explicitly assigns the contents of a variable to the positional parameters.If no variable follow the `--` it unset the positional parameters.
+
+[Example Using et with positional parameters](../../scripts/Part-4-Commands/using-set-with-positional-parameters.sh)
+
+
 #### unset
 
 #### export
