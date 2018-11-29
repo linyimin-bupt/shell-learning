@@ -137,6 +137,9 @@ A `getopts` construct usually comes packaged in a `while loop`, which processes 
 
 #### source, .(dot comamnd)
 
+This command, when invoked from a command-line, executes a script. Within a script, a `source file-name` loads the file file-name. Sourcing a file(dot command) import code into the script, appending to the script(same effect as the #include directive in a C program).The net result is the same as if the "sourced" lines of code were physically present in the body of the script.This is useful in situations when multiple scripts use a common data file or function library.
+
+
 #### exit
 
 #### exec
