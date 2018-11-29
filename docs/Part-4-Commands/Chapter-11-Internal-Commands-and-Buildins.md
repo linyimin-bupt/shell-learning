@@ -119,6 +119,20 @@ Same as `declare -r`, set a variable as read-only,or,in effect, as a constatnt. 
 
 #### getopts
 
+This power tool parses command-line arguments passed to the script. It permits passing and  concatenating multiple options and associated arguments to a script.
+
+The `getopts` contruct uses two implicit variables. **$OPTIND** is the argument pointer(option index) and **$OPTARG**(option argument) the(optional) argument attached to an option.A colon following the option name in the declaration tags that option as having an associated argument.
+
+A `getopts` construct usually comes packaged in a `while loop`, which processes the options and arguments one at a time, then increments the implicit $OPTIND variable to point to the next.
+
+**Note**:
+
+- The arguments passed from the command-line to the script must be proceded by a dash(-). It is the prefixed - that lets `getopts` recognize command-line arguments as options.In fact,`getopts` will not process arguments without the prefixed -,and will terminate option procssing at the first argument encountered lacking them.
+
+- The `getopts` template differs slightly from the standard `while loop`, in that it lacks condition brackets.
+
+- The `getopts` construct is a highly functional replacement for the traditional `getopt` external command.
+
 ### script behavior
 
 #### source, .(dot comamnd)
