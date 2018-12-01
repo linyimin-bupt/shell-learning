@@ -142,6 +142,14 @@ This command, when invoked from a command-line, executes a script. Within a scri
 
 #### exit
 
+Unconditionally terminates a script.The `exit` command may optionally take an integer argument, which is returned to the sshell as the `exit status` of the script. It is good practice to end all but the simplest scripts with an `exit 0`, indicating a successful run.
+
+**Note**:
+
+- If a script terminates with an `exit` lacking an argument,the exit status of the script is the last command executed in the script.This is equivalent to an `exit $?`
+
+- An `exit` command may also be used to terminate a sushell.
+
 #### exec
 
 #### shopt
