@@ -187,3 +187,5 @@ The `type` command can be useful for testing wheter a certain command exists.
 #### bind
 
 #### help
+
+Gets a short usage summary of a shell builtin.This is thev couterpart to `whatis`, but for builtins.
