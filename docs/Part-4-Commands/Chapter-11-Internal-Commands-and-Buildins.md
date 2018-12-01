@@ -158,7 +158,11 @@ This shell builtin replaces the current process with a specified command. Normal
 
 #### shopt
 
+This command permits changing shell option on the fly.
+
 #### caller
+
+Putting a `caller` command inside a `function` echoes to stdout information about the `caller` of the function.
 
 ### Commands
 
