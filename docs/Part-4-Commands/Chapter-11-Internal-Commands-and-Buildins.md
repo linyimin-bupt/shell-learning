@@ -152,6 +152,10 @@ Unconditionally terminates a script.The `exit` command may optionally take an in
 
 #### exec
 
+This shell builtin replaces the current process with a specified command. Normally, when the the shell encouters a command, it forks off a child process to actually execute the command.Using the `exec`  builtin,the shell does not fork,and the command exec'ed repalces the shell.When used in a script,therefore, it forces an exit from the script when the exec'ed command terminates.
+
+
+
 #### shopt
 
 #### caller
