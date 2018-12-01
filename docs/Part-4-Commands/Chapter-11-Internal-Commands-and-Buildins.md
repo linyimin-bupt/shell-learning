@@ -168,7 +168,11 @@ Putting a `caller` command inside a `function` echoes to stdout information abou
 
 #### true
 
+A command that returns a successful (zero) `exit status`, but does nothing else.
+
 #### false
+
+A command that returns a unsuccessful `exit status`, but does nothing else.
 
 #### type [cmd]
 
