@@ -176,6 +176,12 @@ A command that returns a unsuccessful `exit status`, but does nothing else.
 
 #### type [cmd]
 
+Similar to the `which` external command,`type` command identifies "cmd". Unlike `which`, `type` is a bultin.The useful `-a` option to `type` identifies keywords and builtins,and also locates system commands with identical names.
+
+**Note**: 
+
+The `type` command can be useful for testing wheter a certain command exists.
+
 #### hash [cmd]
 
 #### bind
