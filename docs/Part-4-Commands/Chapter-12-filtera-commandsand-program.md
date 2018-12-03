@@ -120,3 +120,9 @@ This is the shell equivalent of a wait loop.It pauses for a specified number of 
 
 Microsleep.This is the same as `sleep`, but "sleep" in microsecond interval.It can be used for fine-grained timing, or for polling an ongoing process at very frequent interval.
 
+
+### Text Processing Commands
+
+- sort
+
+File sort utility,often use as a filter in a pipe 
