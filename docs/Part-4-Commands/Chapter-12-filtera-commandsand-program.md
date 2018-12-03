@@ -88,3 +88,35 @@ Normally, `xargs` reads from stdin or from a pipe, but it can also be given the 
 - Another useful option is -0,in combination with `find -print0 or grep -lz`.This allows handing arguments containing whitespace or quotes.
 - THe -P option to xargs permits running processes in parallel.This speeds up execution in a machie with a multicore CPU.
 
+### Time and Date Commands
+
+- date
+
+Simply invoked, `date` prints date and time to stdout.Where this command gets interesting is in its formatting nad parsing options.
+
+- time
+
+Outputs verbose timing statistics for executing a command.
+
+- touch
+
+Utility for updating access/modification times of a file to current system time or other specified time, but also useful for creating a new file
+
+- at
+
+The `at` job control command executes a given set of commands at a specified time.Superficially,it resembles `cron`,however,`at` is chiefly useful for one-time execution of a command set.
+
+Using either the -f option or input redirection(<), `at` reads a command list from a file.
+
+- batch
+
+The `batch` job control command is similar to `at`, but it runs a command when the system load drop down.
+
+- sleep
+
+This is the shell equivalent of a wait loop.It pauses for a specified number of seconds,doing nothing.It can be useful for timing or processes running in the backgroud, checking for a specific event every so often.
+
+- usleep
+
+Microsleep.This is the same as `sleep`, but "sleep" in microsecond interval.It can be used for fine-grained timing, or for polling an ongoing process at very frequent interval.
+
