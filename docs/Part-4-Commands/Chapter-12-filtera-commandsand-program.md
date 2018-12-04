@@ -143,3 +143,10 @@ The `unexpand` filter converts spaces to tabs. This reverses the effect of `expa
 
 A tool for extracting fields from files.It is similar to the `print $N` command set in `awk`, but more limited.It may be simpler to use `cut` in a script than `awk`. Particularly important are the -d(delimiter) and -f(field specifier) options.
 
+- paste
+
+Tool for merging together different files into a single,multiple-column file.In combination with `cut`,useful for creating system log files.
+
+- head
+
+Lists the beginning of a file to stdout.The default is 10 lines, but a different number can be specified.The command has a number of interesting options.
