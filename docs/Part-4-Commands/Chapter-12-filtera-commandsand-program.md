@@ -138,3 +138,8 @@ The `expand` filter converts tabs to spaces.It is often used in a pipe.
 - unexpand
 
 The `unexpand` filter converts spaces to tabs. This reverses the effect of `expand`.
+
+- cut 
+
+A tool for extracting fields from files.It is similar to the `print $N` command set in `awk`, but more limited.It may be simpler to use `cut` in a script than `awk`. Particularly important are the -d(delimiter) and -f(field specifier) options.
+
