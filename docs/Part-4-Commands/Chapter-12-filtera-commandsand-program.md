@@ -125,4 +125,9 @@ Microsleep.This is the same as `sleep`, but "sleep" in microsecond interval.It c
 
 - sort
 
-File sort utility,often use as a filter in a pipe 
+File sort utility,often use as a filter in a pipe.This command sorts a text stream or file forwards or backwards,or according to the various keys or character positions.Using the -m option.It merges  presorted inout files.
+
+- uniq
+
+This filter removes duplicate lines from a sroted file.It is often seen in a pipe coupled with `sort`.
+
