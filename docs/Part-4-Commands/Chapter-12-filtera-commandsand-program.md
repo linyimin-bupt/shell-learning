@@ -131,3 +131,10 @@ File sort utility,often use as a filter in a pipe.This command sorts a text stre
 
 This filter removes duplicate lines from a sroted file.It is often seen in a pipe coupled with `sort`.
 
+- expand
+
+The `expand` filter converts tabs to spaces.It is often used in a pipe.
+
+- unexpand
+
+The `unexpand` filter converts spaces to tabs. This reverses the effect of `expand`.
