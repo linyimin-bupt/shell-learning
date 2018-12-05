@@ -150,3 +150,8 @@ Tool for merging together different files into a single,multiple-column file.In 
 - head
 
 Lists the beginning of a file to stdout.The default is 10 lines, but a different number can be specified.The command has a number of interesting options.
+
+- tail
+
+Lists the(tail) end of a file to to stdout.The default is 10 lines,but this can be changed with the `-n` option.Commonly used to keep track of changes to a system logfile,using the `-f` option,which outputs lines appended to the file.
+
