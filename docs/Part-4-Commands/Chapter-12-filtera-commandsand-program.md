@@ -175,3 +175,6 @@ If no target file(s) specified,`grep` works as a filter on stdout,as in a `pipe`
 |-r|searches files in the current working directory and all subdirectories below it|
 |-n|lists the matches lines,together with line numbers|
 
+- look
+
+The command `look` works linke `grep`, but does a lookup on a "directory",a stored word list.
