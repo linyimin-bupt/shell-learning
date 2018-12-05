@@ -155,3 +155,23 @@ Lists the beginning of a file to stdout.The default is 10 lines, but a different
 
 Lists the(tail) end of a file to to stdout.The default is 10 lines,but this can be changed with the `-n` option.Commonly used to keep track of changes to a system logfile,using the `-f` option,which outputs lines appended to the file.
 
+- grep
+
+A multi-purpose file search tool that use `Regular Expressions`.It was originally a command/filter in the venerable `ed` line editor: g/re/p -global -regular expression -print.
+
+`grep pattern [file...]`
+
+Search the target file(s) for occurrences of `pattern`, where pattern may be literal text or a Regular Expression.
+
+**Note**:
+
+If no target file(s) specified,`grep` works as a filter on stdout,as in a `pipe`.
+
+|option|desciption|
+|:---:|:---|
+|-i|case insensitive search|
+|-w|matches only whole words|
+|-l|lists only the files in which matches were found, but no the matching lines|
+|-r|searches files in the current working directory and all subdirectories below it|
+|-n|lists the matches lines,together with line numbers|
+
