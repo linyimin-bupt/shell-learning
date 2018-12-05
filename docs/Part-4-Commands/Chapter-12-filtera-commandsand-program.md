@@ -178,3 +178,15 @@ If no target file(s) specified,`grep` works as a filter on stdout,as in a `pipe`
 - look
 
 The command `look` works linke `grep`, but does a lookup on a "directory",a stored word list.
+
+- wc
+
+`wc` gives a "word count" on a file or I/O stream
+
+|option|description|
+|:---:|:---|
+|-w|gives only the word count|
+|-l|gives only the line count|
+|-c|gives only the byte count|
+|-m|gives only the character count|
+|-L|gives only the length of the longest line|
