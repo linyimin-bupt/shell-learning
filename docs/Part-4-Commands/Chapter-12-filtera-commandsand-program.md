@@ -197,3 +197,7 @@ character translation filter.
 
 **Note**:
 Must be quoting and/or brackets, as appropriate.Quotes prevent the shell from reinterpreting the special characters in `tr` command sequences.Brackets should be quoted to prevent expansion by the shell.
+
+- iconv
+
+A utility for converting file(s) to a diffent encoding(character set).Its cheif use is for localization.
