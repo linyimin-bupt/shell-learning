@@ -190,3 +190,10 @@ The command `look` works linke `grep`, but does a lookup on a "directory",a stor
 |-c|gives only the byte count|
 |-m|gives only the character count|
 |-L|gives only the length of the longest line|
+
+- tr
+
+character translation filter.
+
+**Note**:
+Must be quoting and/or brackets, as appropriate.Quotes prevent the shell from reinterpreting the special characters in `tr` command sequences.Brackets should be quoted to prevent expansion by the shell.
