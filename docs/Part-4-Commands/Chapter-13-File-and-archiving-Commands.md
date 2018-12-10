@@ -42,5 +42,23 @@ These Linux utilities permit unpacking archives compressed with the DOS `arc.exe
 
 A new high-efficiency compression tool,backward compatible with `lzma`, and with an invocation syntax similar to `gzip`.
 
+### File Information
 
+- file
+
+A utility for identifying file types.The command `file file-name` will return a file specification for file-name, such as `ascii text` or `data`.
+
+The `-f` option causes `file` to run in `batch` mode,to read from a designated file a list of filenames to analyze.
+
+- which
+
+`which` command gives the full path to "command". This is useful for finding out whether a particular command or utility is installed on the system.
+
+- whereis
+
+Similar to `which`, above, `whereis` command gives the full path to "command", but also to its manpage.
+
+- readlink
+
+Disclose the file that a synbolic link points to.
 
