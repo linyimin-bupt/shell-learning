@@ -85,3 +85,18 @@ Scripts the path information from a file name,printing pnly the file name.The co
 ```shell
 echo "Usage: `basename $0` arg1 arg2 ... argn"
 ```
+
+- dirname
+
+Scripts the `basename` from a filename,printing only the path information.
+
+- split,csplit
+
+These are utilities for spliting a file into smaller chunks.Their usual use is for spliting up large files in order to back them up on preparatory to e-mailing or uploading them.
+
+### Encoding and Encryption
+
+- sum,cksum,md5sum,sha1sum
+
+These are utilities for generating `checksums`, A `checksums` is a number mathematically calculated from the content of a file,for the purpose of checking its integrity.A script might refer a list of checknums for security purpose, such as ensuring that the contents of key system files have not been altered or corrupted.For security applications,use the `md5sum`(message digest 5 chencksum) command,or better yet, the newer `sha1sum`(Secure Hash Algorithm).
+
